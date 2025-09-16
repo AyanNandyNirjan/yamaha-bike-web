@@ -1,0 +1,238 @@
+body{
+    font-family: 'Arial', sans-serif;
+}
+.navbar-top {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-bottom: 2px solid #ccc;
+  }
+  .navbar-top .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  .navbar-top .navbar-brand img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  .navbar-main {
+    background-color: #002366;
+    padding: 0.5rem 1rem;
+  }
+  .navbar-main .nav-link {
+    color: white;
+    font-weight: bold;
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+  }
+  .navbar-main .nav-link i {
+    margin-right: 5px;
+  }
+  .navbar-main .nav-link:hover {
+    text-decoration: underline;
+  }
+  .navbar-main .dropdown-menu {
+    background-color: #002366;
+    border: none;
+  }
+  .navbar-main .dropdown-item {
+    color: white;
+  }
+  .navbar-main .dropdown-item:hover {
+    background-color: #0041cc;
+  }
+  .carousel {
+    height: 550px;
+  }
+  .carousel-inner {
+    height: 100%;
+  }
+  .carousel-inner img {
+    object-fit: cover;
+    height: 100%;
+  }
+  .carousel-indicators-bottom {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .section-below-carousel {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .section-below-carousel .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  /* Custom Search Bar Styling */
+  
+  .navbar-top .form-control {
+    border-radius: 30px;
+    border: 1px solid #ccc;
+  }
+  .navbar-top .btn-outline-dark {
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    background-color: #002366;
+    color: white;
+  }
+  .navbar-top .btn-outline-dark:hover {
+    background-color: #0041cc;
+    border-color: #0041cc;
+  }
+
+  /* Banner Section Styling */
+
+  .banner-section {
+    padding: 40px 0;
+  }
+
+  .banner-item {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .banner-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .banner-item img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-right: 4px solid #0073e6; /* Yamaha blue */
+  }
+
+  .banner-text {
+    padding: 20px;
+    flex: 1;
+  }
+
+  .banner-text h5 {
+    font-size: 1.5rem;
+    color: #0073e6;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .banner-text p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+  .banner-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #0073e6;
+  }
+  
+  .section-header {
+    margin-bottom: 40px;
+  }
+  .section-header h1 {
+    font-weight: bold;
+  }
+  .image-row img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .subheading {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+/* bike section */
+
+    .bike-section {
+      padding: 50px 0;
+    }
+
+    .bike-item {
+      position: relative;
+      margin-bottom: 40px;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .bike-item img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .bike-info {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .bike-info h3 {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .bike-info p {
+      font-size: 0.9rem;
+      margin-bottom: 10px;
+    }
+
+    .bike-buttons {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      display: flex;
+      gap: 10px;
+    }
+
+    .bike-buttons button {
+      background-color: #0073e6;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      font-size: 0.85rem;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .bike-buttons button:hover {
+      background-color: #005bb5;
+    }
+
+    /* footer */
+
+    .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 40px 20px;
+      }
+      .footer h6 {
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      .footer a {
+        color: #ccc;
+        text-decoration: none;
+      }
+      .footer a:hover {
+        color: #fff;
+      }
+
+   
